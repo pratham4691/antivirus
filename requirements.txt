@@ -1,0 +1,9 @@
+scikit-learn
+requests
+watchdog
+flask
+docker
+numpy
+pandas
+joblib
+cryptography

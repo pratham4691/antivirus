@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuristic Antivirus Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f5f5f5; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; }
+        .section { background: white; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .btn { background: #667eea; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; }
+        .btn:hover { background: #5a6fd8; }
+        input[type="text"] { padding: 10px; width: 300px; border: 1px solid #ddd; border-radius: 4px; }
+        .log-entry { margin: 5px 0; padding: 5px; background: #f9f9f9; border-left: 3px solid #667eea; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🛡️ Futuristic Antivirus System</h1>
+            <p>Advanced Threat Detection & Prevention</p>
+        </div>
+
+        <div class="section">
+            <h2>Quick Scan</h2>
+            <input type="text" id="scanPath" placeholder="Enter path to scan (e.g., C:\Users\...)" />
+            <button class="btn" onclick="performScan()">Start Scan</button>
+            <div id="scanResults"></div>
+        </div>
+
+        <div class="section">
+            <h2>Recent Logs</h2>
+            <button class="btn" onclick="loadLogs()">Refresh Logs</button>
+            <div id="logsContainer"></div>
+        </div>
+
+        <div class="section">
+            <h2>Quarantine</h2>
+            <button class="btn" onclick="loadQuarantine()">View Quarantined Files</button>
+            <div id="quarantineContainer"></div>
+        </div>
+
+        <div class="section">
+            <h2>System Status</h2>
+            <p>AI Model: <span id="aiStatus">Loaded</span></p>
+            <p>Cloud Intel: <span id="cloudStatus">Connected</span></p>
+            <p>Sandbox: <span id="sandboxStatus">Ready</span></p>
+        </div>
+    </div>
+
+    <script>
+        async function performScan() {
+            const path = document.getElementById('scanPath').value;
+            if (!path) {
+                alert('Please enter a path to scan');
+                return;
+            }
+
+            const response = await fetch('/scan', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ path })
+            });
+
+            const result = await response.json();
+            document.getElementById('scanResults').innerHTML = `
+                <h3>Scan Results</h3>
+                <p>Scanned: ${result.scanned_path}</p>
+                <p>Infected files: ${result.total_infected}</p>
+                <ul>${result.infected_files.map(f => `<li>${f}</li>`).join('')}</ul>
+            `;
+        }
+
+        async function loadLogs() {
+            const response = await fetch('/logs');
+            const result = await response.json();
+            const logsHtml = result.logs.map(log => `<div class="log-entry">${log}</div>`).join('');
+            document.getElementById('logsContainer').innerHTML = logsHtml;
+        }
+
+        async function loadQuarantine() {
+            const response = await fetch('/quarantine');
+            const result = await response.json();
+            const quarantineHtml = result.quarantined_files.map(f => `<div class="log-entry">${f}</div>`).join('');
+            document.getElementById('quarantineContainer').innerHTML = quarantineHtml;
+        }
+
+        // Load initial data
+        loadLogs();
+        loadQuarantine();
+    </script>
+</body>
+</html>

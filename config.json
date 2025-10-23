@@ -1,0 +1,32 @@
+{
+  "antivirus": {
+    "signatures_file": "data/signatures.txt",
+    "quarantine_dir": "quarantine",
+    "log_file": "logs/antivirus.log",
+    "scan_timeout": 300
+  },
+  "ai_model": {
+    "model_path": "models/anomaly_detector.pkl",
+    "training_data_ratio": 0.8,
+    "anomaly_threshold": 0.5
+  },
+  "cloud_intel": {
+    "api_url": "https://api.threatintel.example.com",
+    "api_key": "your_api_key_here",
+    "update_interval": 3600
+  },
+  "sandbox": {
+    "docker_image": "ubuntu:20.04",
+    "timeout": 30,
+    "risk_threshold": 0.5
+  },
+  "monitoring": {
+    "watch_paths": ["C:\\Users\\PRO\\Desktop\\test_folder"],
+    "alert_email": "admin@example.com"
+  },
+  "gui": {
+    "host": "0.0.0.0",
+    "port": 5000,
+    "debug": true
+  }
+}
