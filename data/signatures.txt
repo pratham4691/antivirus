@@ -1,1 +1,4 @@
-d418a5928ae5f64f3049362bebd1d1df
+# Sample malware signatures (MD5 hashes)
+# These are example hashes; in a real system, this would be populated with actual malware signatures
+d41d8cd98f00b204e9800998ecf8427e
+a665a45920422f9d417e4867efdc4fb8

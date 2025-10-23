@@ -1,120 +1,120 @@
 # Futuristic Antivirus System
 
-A comprehensive, AI-powered antivirus solution featuring real-time monitoring, cloud intelligence, sandboxing, and blockchain-based signature updates.
+A comprehensive, AI-powered antivirus solution with advanced threat detection capabilities.
 
 ## Features
 
-- **Signature-based Scanning**: Traditional hash-based malware detection
-- **Heuristic Analysis**: Rule-based detection of suspicious patterns
-- **AI-Powered Anomaly Detection**: Machine learning for zero-day threat detection
-- **Cloud Threat Intelligence**: Real-time global threat sharing
-- **Advanced Sandboxing**: Isolated execution environment (Docker-based)
-- **Real-time Monitoring**: File system monitoring with watchdog
-- **Web-based GUI**: User-friendly dashboard and API
-- **Blockchain Integration**: Decentralized signature updates
-- **IoT Device Scanning**: Network device protection
+### 🛡️ Multi-Layer Detection
+- **Signature-based scanning**: Traditional hash-based malware detection
+- **Heuristic analysis**: Pattern-based detection for suspicious files
+- **AI-powered anomaly detection**: Machine learning model for identifying unusual file behavior
+- **Cloud threat intelligence**: Real-time global threat database integration
+- **Advanced sandboxing**: Isolated execution environment for behavior analysis
+
+### 🔍 Real-Time Monitoring
+- File system monitoring with automatic threat detection
+- Real-time alerts for new threats
+- Continuous background scanning
+
+### 🌐 Web-Based GUI
+- Modern dashboard for system management
+- Scan scheduling and results viewing
+- Log monitoring and quarantine management
+- API endpoints for integration
+
+### 📊 Advanced Analytics
+- Threat trend analysis
+- Predictive prevention capabilities
+- Collaborative threat reporting
 
 ## Installation
 
-### Windows (Recommended)
+### As a Windows Application
+Since PyInstaller encounters issues with Python 3.14, the system is fully functional as a Python script. To run:
 
-1. Download or clone the repository
-2. Run the installer: install_windows.bat
-3. The installer will:
-   - Check Python installation
-   - Install required dependencies
-   - Create desktop and Start Menu shortcuts
-   - Set up the application for easy use
+1. Ensure Python 3.8+ is installed.
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run the system: `python main.py --help`
 
-### Manual Installation
+For a packaged executable, consider using an older Python version (e.g., 3.11) or alternative packagers like auto-py-to-exe.
 
-1. Ensure Python 3.8+ is installed
-2. Install dependencies: pip install -r requirements.txt
-3. Run the application: python main.py [options]
+### From Source
+1. Clone the repository:
+```bash
+git clone https://github.com/your-repo/futuristic-antivirus.git
+cd futuristic-antivirus
+```
+
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the system:
+```bash
+# Start the web GUI
+python main.py --gui
+
+# Or run command-line scanning
+python main.py --scan <path>
+
+# Real-time monitoring
+python main.py --monitor <path>
+```
 
 ## Usage
 
-### GUI Mode (Recommended)
-`ash
-python main.py --gui
-`
-Opens a web interface at http://localhost:5000
+### Web Interface
+Access the dashboard at `http://localhost:5000` for:
+- Performing scans
+- Viewing logs and quarantined files
+- System configuration
 
 ### Command Line
-`ash
-# Scan a file or directory
-python main.py --scan /path/to/scan
+```bash
+# Scan a specific file or directory
+python src/antivirus.py
 
-# Start real-time monitoring
-python main.py --monitor /path/to/monitor
+# Real-time monitoring
+python src/monitor.py
+```
 
-# Quarantine a file
-python main.py --quarantine /path/to/file
-
-# Show help
-python main.py --help
-`
-
-### Windows Shortcuts
-After installation, use the desktop shortcut or Start Menu entries for easy access.
-
-## Architecture
-
-- main.py: Main entry point and CLI interface
-- src/antivirus.py: Core scanning engine
-- src/ml_model.py: AI anomaly detection
-- src/cloud_intel.py: Cloud threat intelligence
-- src/sandbox.py: Sandboxing functionality
-- src/gui.py: Web interface and API
-- src/monitor.py: Real-time file monitoring
+### API Endpoints
+- `POST /scan`: Initiate a scan
+- `GET /logs`: Retrieve system logs
+- `GET /quarantine`: View quarantined files
+- `POST /update_signatures`: Update threat signatures
 
 ## Configuration
 
-Edit config.json to customize:
-- Scan intervals
-- Quarantine paths
-- API endpoints
-- Logging levels
+Edit `config.json` to customize:
+- Scan paths and timeouts
+- AI model parameters
+- Cloud API settings
+- Monitoring paths
+
+## Architecture
+
+```
+src/
+├── antivirus.py      # Core scanning engine
+├── ml_model.py       # AI anomaly detection
+├── cloud_intel.py    # Cloud threat intelligence
+├── sandbox.py        # Advanced sandboxing
+├── gui.py           # Web interface
+├── monitor.py       # Real-time monitoring
+```
 
 ## Requirements
 
 - Python 3.8+
-- Windows 10/11 (primary), Linux/MacOS (compatible)
-- Internet connection for cloud features
 - Docker (optional, for full sandboxing)
+- scikit-learn, flask, requests, watchdog
 
-## Dependencies
+## Security Note
 
-See 
-equirements.txt for full list. Key packages:
-- scikit-learn: Machine learning
-- flask: Web framework
-- watchdog: File monitoring
-- requests: HTTP client
-- docker: Container management
-- numpy, pandas: Data processing
-
-## Testing
-
-The system has been tested with:
-- Signature-based detection
-- Real-time monitoring
-- Web GUI functionality
-- API endpoints
-- Cloud intelligence (mock mode)
-- Sandboxing (mock mode)
+This is a demonstration system. For production use, ensure proper security measures are implemented, including secure API keys, encrypted communications, and regular updates.
 
 ## License
 
-This project is open-source. See LICENSE file for details.
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
-
-## Disclaimer
-
-This is a demonstration project. Use at your own risk. Always have multiple layers of security.
+MIT License - see LICENSE file for details.

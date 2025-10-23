@@ -993,3 +993,16 @@
 2025-10-23 15:47:10,540 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\build\\FuturisticAntivirus\\localpycs\\struct.pyc', reloading
 2025-10-23 15:47:10,549 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\build\\FuturisticAntivirus\\base_library.zip', reloading
 2025-10-23 15:47:11,694 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:47:12,932 - WARNING -  * Debugger is active!
+2025-10-23 15:47:12,932 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:49:15,636 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\build_desktop.py', reloading
+2025-10-23 15:49:15,636 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\desktop_app.py', reloading
+2025-10-23 15:49:15,638 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\simple_desktop.py', reloading
+2025-10-23 15:49:15,638 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\src\\desktop_gui.py', reloading
+2025-10-23 15:49:16,099 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\src\\antivirus.py', reloading
+2025-10-23 15:49:16,100 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\src\\monitor.py', reloading
+2025-10-23 15:49:16,185 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\argparse.py', reloading
+2025-10-23 15:49:16,187 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\subprocess.py', reloading
+2025-10-23 15:49:16,626 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:49:18,099 - WARNING -  * Debugger is active!
+2025-10-23 15:49:18,100 - INFO -  * Debugger PIN: 520-505-401
