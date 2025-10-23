@@ -21,12 +21,19 @@ def scan():
     if not path:
         return jsonify({'error': 'No path provided'}), 400
 
-    infected = av_engine.run_scan(path)
-    return jsonify({
-        'scanned_path': path,
-        'infected_files': infected,
-        'total_infected': len(infected)
-    })
+    # Check if path exists
+    if not os.path.exists(path):
+        return jsonify({'error': 'Path does not exist'}), 400
+
+    try:
+        infected = av_engine.run_scan(path)
+        return jsonify({
+            'scanned_path': path,
+            'infected_files': infected,
+            'total_infected': len(infected)
+        })
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
 
 @app.route('/logs')
 def get_logs():
@@ -117,4 +124,15 @@ def update_signatures():
     return jsonify({'message': 'Signatures updated successfully'})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    import webbrowser
+    import threading
+    import time
+
+    def open_browser():
+        time.sleep(1)  # Wait for server to start
+        webbrowser.open('http://localhost:5000')
+
+    # Start browser in a separate thread
+    threading.Thread(target=open_browser, daemon=True).start()
+
+    app.run(debug=True, host='0.0.0.0', port=5000)

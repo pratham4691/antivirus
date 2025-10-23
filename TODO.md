@@ -38,7 +38,9 @@
 ## Phase 8: Testing and Deployment
 - [x] Test all components individually (CLI works, GUI launches, scanning functional)
 - [x] Run full system test on sample data (scanned project directory successfully)
-- [x] Package for easy deployment (attempted PyInstaller, failed on Python 3.14; system runs as script)
+- [x] Package for easy deployment (attempted PyInstaller and Nuitka, failed on Python 3.14; system runs as script)
+- [x] Create desktop shortcut pointing to Python script
+- [x] GUI launches and browser opens automatically
 
 ## Phase 9: Final Touches
 - [x] Add configuration file for settings (config.json exists)
