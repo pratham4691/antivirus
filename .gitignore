@@ -1,0 +1,9 @@
+# Build outputs
+build/
+dist/
+*.pkg
+*.exe
+*.msi
+__pycache__/
+*.pyc
+
