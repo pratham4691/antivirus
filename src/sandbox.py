@@ -10,8 +10,11 @@ class Sandbox:
             self.client = docker.from_env()
             self.image = image
             self.container = None
+            print("Docker sandbox initialized successfully.")
         except Exception as e:
-            print(f"Docker not available: {e}. Using mock sandbox.")
+            print(f"Docker not available: {e}")
+            print("Using mock sandbox mode. For full sandboxing, install Docker Desktop from https://www.docker.com/products/docker-desktop")
+            print("Mock mode provides simulated analysis for demonstration purposes.")
             self.client = None
 
     def run_in_sandbox(self, file_path, timeout=30):

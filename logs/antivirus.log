@@ -90,3 +90,899 @@
 2025-10-23 14:56:29,688 - INFO -  * Restarting with watchdog (windowsapi)
 2025-10-23 14:56:30,988 - WARNING -  * Debugger is active!
 2025-10-23 14:56:31,015 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:04:43,225 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1EED2B0>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,226 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F08690>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,227 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F08B90>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,228 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F08E10>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,229 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F09090>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,231 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F09310>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,232 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F09590>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,241 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F09810>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,242 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F09A90>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,249 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1DDBD90>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,250 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1DDAFD0>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,257 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1DDB250>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,263 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F09A90>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,272 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F09810>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,291 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F09590>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,300 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F09310>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,309 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F09090>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,318 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F08E10>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,326 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F08910>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,336 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F08B90>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,353 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F08410>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,362 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F08690>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,371 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F082D0>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,384 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F09D10>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,397 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F09F90>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,415 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1DDB250>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,430 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1DDAFD0>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,443 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1DDBD90>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,446 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F09F90>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,457 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F09D10>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,472 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F082D0>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,483 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F08690>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,492 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F08410>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,498 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F08B90>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,505 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F08910>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,512 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F08E10>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,518 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F09090>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,527 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F09310>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,534 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F09590>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,568 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F09810>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,582 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F09A90>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,592 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F0A210>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,601 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1DDBD90>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,616 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1DDAFD0>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,627 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1DDB250>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,634 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F09A90>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,641 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F09810>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,648 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F09590>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,654 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F09310>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,661 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F09090>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,668 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F08E10>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,678 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F08910>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,685 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F08B90>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,694 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F08410>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,700 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F08690>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,709 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F082D0>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,716 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F09D10>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,724 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F09F90>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,731 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1DDB250>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,740 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1DDAFD0>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,747 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1DDBD90>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,748 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F09F90>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,749 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F09D10>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,750 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F082D0>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,764 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F08690>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,765 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F08410>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,766 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F08B90>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,768 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F08910>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,769 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F08E10>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,770 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F09090>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,772 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F09310>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,774 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F09590>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,775 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F09810>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,776 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F09A90>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,777 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F0A490>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,778 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1DDBD90>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,779 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1DDAFD0>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,780 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1DDB250>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:43,781 - ERROR - Error fetching threats: HTTPSConnectionPool(host='api.threatintel.example.com', port=443): Max retries exceeded with url: /threats (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000015AC1F09A90>: Failed to resolve 'api.threatintel.example.com' ([Errno 11001] getaddrinfo failed)"))
+2025-10-23 15:04:49,822 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-23 15:04:49,823 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-23 15:04:49,824 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:04:51,279 - WARNING -  * Debugger is active!
+2025-10-23 15:04:51,280 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:08:52,393 - WARNING - Malware detected: test_malware.txt (MD5: d418a5928ae5f64f3049362bebd1d1df)
+2025-10-23 15:08:58,162 - INFO - Quarantined: test_malware.txt -> quarantine\20251023_150858_test_malware.txt
+2025-10-23 15:09:39,848 - INFO - Monitoring started for: C:\Users\PRO\Desktop\skanda_a
+2025-10-23 15:10:02,726 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-23 15:10:02,726 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-23 15:10:02,727 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:10:04,224 - WARNING -  * Debugger is active!
+2025-10-23 15:10:04,225 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:10:20,380 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-23 15:10:20,380 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-23 15:10:20,381 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:10:21,781 - WARNING -  * Debugger is active!
+2025-10-23 15:10:21,782 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:10:26,192 - ERROR - Invalid path: test_malware.txt
+2025-10-23 15:10:26,193 - INFO - 127.0.0.1 - - [23/Oct/2025 15:10:26] "POST /scan HTTP/1.1" 200 -
+2025-10-23 15:10:34,088 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-23 15:10:34,089 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-23 15:10:34,089 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:10:35,476 - WARNING -  * Debugger is active!
+2025-10-23 15:10:35,477 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:10:39,906 - INFO - 127.0.0.1 - - [23/Oct/2025 15:10:39] "[31m[1mPOST /quarantine HTTP/1.1[0m" 405 -
+2025-10-23 15:26:18,268 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-23 15:26:18,268 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-23 15:26:18,269 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:26:20,315 - WARNING -  * Debugger is active!
+2025-10-23 15:26:20,316 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:27:25,810 - INFO - 127.0.0.1 - - [23/Oct/2025 15:27:25] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-10-23 15:27:25,984 - INFO - 127.0.0.1 - - [23/Oct/2025 15:27:25] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-10-23 15:27:26,101 - INFO - 127.0.0.1 - - [23/Oct/2025 15:27:26] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-10-23 15:27:26,144 - INFO - 127.0.0.1 - - [23/Oct/2025 15:27:26] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=xhP0ZROcdDyUrLXGHmec HTTP/1.1" 200 -
+2025-10-23 15:27:26,459 - INFO - 127.0.0.1 - - [23/Oct/2025 15:27:26] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-10-23 15:27:42,433 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\src\\gui.py', reloading
+2025-10-23 15:27:42,434 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\src\\gui.py', reloading
+2025-10-23 15:27:42,434 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\src\\gui.py', reloading
+2025-10-23 15:27:42,828 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:27:44,353 - WARNING -  * Debugger is active!
+2025-10-23 15:27:44,357 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:27:55,907 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-23 15:27:55,907 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-23 15:27:55,907 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:27:57,430 - WARNING -  * Debugger is active!
+2025-10-23 15:27:57,431 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:28:43,713 - INFO - 127.0.0.1 - - [23/Oct/2025 15:28:43] "GET / HTTP/1.1" 200 -
+2025-10-23 15:28:43,925 - INFO - 127.0.0.1 - - [23/Oct/2025 15:28:43] "GET /threat_stats HTTP/1.1" 200 -
+2025-10-23 15:28:44,143 - INFO - 127.0.0.1 - - [23/Oct/2025 15:28:44] "GET /activity_timeline HTTP/1.1" 200 -
+2025-10-23 15:28:44,150 - INFO - 127.0.0.1 - - [23/Oct/2025 15:28:44] "GET /quarantine HTTP/1.1" 200 -
+2025-10-23 15:28:44,168 - INFO - 127.0.0.1 - - [23/Oct/2025 15:28:44] "GET /logs HTTP/1.1" 200 -
+2025-10-23 15:28:44,189 - INFO - 127.0.0.1 - - [23/Oct/2025 15:28:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-23 15:28:44,836 - INFO - 127.0.0.1 - - [23/Oct/2025 15:28:44] "GET /system_stats HTTP/1.1" 200 -
+2025-10-23 15:29:15,161 - INFO - 127.0.0.1 - - [23/Oct/2025 15:29:15] "GET /system_stats HTTP/1.1" 200 -
+2025-10-23 15:29:33,541 - ERROR - Invalid path: 3c3
+2025-10-23 15:29:33,541 - INFO - 127.0.0.1 - - [23/Oct/2025 15:29:33] "POST /scan HTTP/1.1" 200 -
+2025-10-23 15:29:34,571 - INFO - 127.0.0.1 - - [23/Oct/2025 15:29:34] "GET /threat_stats HTTP/1.1" 200 -
+2025-10-23 15:29:45,158 - INFO - 127.0.0.1 - - [23/Oct/2025 15:29:45] "GET /system_stats HTTP/1.1" 200 -
+2025-10-23 15:30:02,058 - ERROR - Invalid path: rwfg  erg er eryb 3rt
+2025-10-23 15:30:02,058 - INFO - 127.0.0.1 - - [23/Oct/2025 15:30:02] "POST /scan HTTP/1.1" 200 -
+2025-10-23 15:30:03,085 - INFO - 127.0.0.1 - - [23/Oct/2025 15:30:03] "GET /threat_stats HTTP/1.1" 200 -
+2025-10-23 15:30:09,569 - INFO - 127.0.0.1 - - [23/Oct/2025 15:30:09] "GET /logs HTTP/1.1" 200 -
+2025-10-23 15:30:11,331 - INFO - 127.0.0.1 - - [23/Oct/2025 15:30:11] "GET /quarantine HTTP/1.1" 200 -
+2025-10-23 15:30:15,161 - INFO - 127.0.0.1 - - [23/Oct/2025 15:30:15] "GET /system_stats HTTP/1.1" 200 -
+2025-10-23 15:30:45,419 - INFO - 127.0.0.1 - - [23/Oct/2025 15:30:45] "GET /system_stats HTTP/1.1" 200 -
+2025-10-23 15:31:06,740 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\PyQt6\\__init__.py', reloading
+2025-10-23 15:31:06,740 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\PyQt6\\__init__.py', reloading
+2025-10-23 15:31:06,740 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\PyQt6\\__init__.py', reloading
+2025-10-23 15:31:07,267 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:31:08,774 - WARNING -  * Debugger is active!
+2025-10-23 15:31:08,775 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:31:13,551 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\flask\\__init__.py', reloading
+2025-10-23 15:31:13,553 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\flask\\app.py', reloading
+2025-10-23 15:31:13,569 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\flask\\sansio\\app.py', reloading
+2025-10-23 15:31:13,580 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\flask\\sansio\\scaffold.py', reloading
+2025-10-23 15:31:13,605 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\flask\\templating.py', reloading
+2025-10-23 15:31:13,610 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\jinja2\\__init__.py', reloading
+2025-10-23 15:31:13,612 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\jinja2\\environment.py', reloading
+2025-10-23 15:31:13,638 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\flask\\globals.py', reloading
+2025-10-23 15:31:13,640 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\flask\\wrappers.py', reloading
+2025-10-23 15:31:13,644 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+2025-10-23 15:31:13,645 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+2025-10-23 15:31:13,651 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\werkzeug\\sansio\\request.py', reloading
+2025-10-23 15:31:13,657 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\flask\\json\\__init__.py', reloading
+2025-10-23 15:31:13,659 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\werkzeug\\wrappers\\response.py', reloading
+2025-10-23 15:31:13,666 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\werkzeug\\sansio\\response.py', reloading
+2025-10-23 15:31:14,062 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:31:15,685 - WARNING -  * Debugger is active!
+2025-10-23 15:31:15,686 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:31:15,951 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\frozen\\__init__.py', reloading
+2025-10-23 15:31:15,952 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\frozen\\_frozen.py', reloading
+2025-10-23 15:31:16,701 - INFO - 127.0.0.1 - - [23/Oct/2025 15:31:16] "GET /system_stats HTTP/1.1" 200 -
+2025-10-23 15:31:16,892 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:31:18,130 - WARNING -  * Debugger is active!
+2025-10-23 15:31:18,131 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:31:35,902 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\src\\desktop_gui.py', reloading
+2025-10-23 15:31:36,468 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:31:38,317 - WARNING -  * Debugger is active!
+2025-10-23 15:31:38,318 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:31:45,426 - INFO - 127.0.0.1 - - [23/Oct/2025 15:31:45] "GET /system_stats HTTP/1.1" 200 -
+2025-10-23 15:32:15,427 - INFO - 127.0.0.1 - - [23/Oct/2025 15:32:15] "GET /system_stats HTTP/1.1" 200 -
+2025-10-23 15:33:16,426 - INFO - 127.0.0.1 - - [23/Oct/2025 15:33:16] "GET /system_stats HTTP/1.1" 200 -
+2025-10-23 15:34:17,426 - INFO - 127.0.0.1 - - [23/Oct/2025 15:34:17] "GET /system_stats HTTP/1.1" 200 -
+2025-10-23 15:34:26,812 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\src\\desktop_gui.py', reloading
+2025-10-23 15:34:26,814 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\src\\desktop_gui.py', reloading
+2025-10-23 15:34:27,135 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:34:28,668 - WARNING -  * Debugger is active!
+2025-10-23 15:34:28,673 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:34:33,674 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\watchdog\\events.py', reloading
+2025-10-23 15:34:33,697 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\watchdog\\observers\\__init__.py', reloading
+2025-10-23 15:34:34,006 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:34:35,543 - WARNING -  * Debugger is active!
+2025-10-23 15:34:35,544 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:35:12,592 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\build_desktop.py', reloading
+2025-10-23 15:35:13,035 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:35:15,561 - WARNING -  * Debugger is active!
+2025-10-23 15:35:15,562 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:35:16,476 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\build_desktop.py', reloading
+2025-10-23 15:35:16,477 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\build_desktop.py', reloading
+2025-10-23 15:35:16,477 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\build_desktop.py', reloading
+2025-10-23 15:35:17,077 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:35:18,421 - WARNING -  * Debugger is active!
+2025-10-23 15:35:18,422 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:35:24,501 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\_pyinstaller\\hook-numpy.py', reloading
+2025-10-23 15:35:25,665 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:35:27,211 - WARNING -  * Debugger is active!
+2025-10-23 15:35:27,212 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:35:27,685 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\threading.py', reloading
+2025-10-23 15:35:27,792 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\shutil.py', reloading
+2025-10-23 15:35:28,425 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:35:29,755 - WARNING -  * Debugger is active!
+2025-10-23 15:35:29,757 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:35:31,746 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\encodings\\utf_8_sig.py', reloading
+2025-10-23 15:35:31,977 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:35:33,313 - WARNING -  * Debugger is active!
+2025-10-23 15:35:33,314 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:35:33,884 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\multiprocessing\\heap.py', reloading
+2025-10-23 15:35:33,926 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\multiprocessing\\sharedctypes.py', reloading
+2025-10-23 15:35:34,525 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:35:36,010 - WARNING -  * Debugger is active!
+2025-10-23 15:35:36,011 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:35:36,083 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\http\\server.py', reloading
+2025-10-23 15:35:36,372 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\lib\\stride_tricks.py', reloading
+2025-10-23 15:35:36,385 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\lib\\_arraysetops_impl.py', reloading
+2025-10-23 15:35:36,413 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\lib\\_arrayterator_impl.py', reloading
+2025-10-23 15:35:36,433 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\lib\\_nanfunctions_impl.py', reloading
+2025-10-23 15:35:36,466 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\lib\\_npyio_impl.py', reloading
+2025-10-23 15:35:36,506 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\lib\\format.py', reloading
+2025-10-23 15:35:36,519 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\lib\\_format_impl.py', reloading
+2025-10-23 15:35:36,544 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\lib\\_utils_impl.py', reloading
+2025-10-23 15:35:36,570 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\threadpoolctl.py', reloading
+2025-10-23 15:35:36,610 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\lib\\_datasource.py', reloading
+2025-10-23 15:35:36,631 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\lib\\_polynomial_impl.py', reloading
+2025-10-23 15:35:36,662 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\lib\\_type_check_impl.py', reloading
+2025-10-23 15:35:36,678 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\_core\\getlimits.py', reloading
+2025-10-23 15:35:36,701 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\lib\\_ufunclike_impl.py', reloading
+2025-10-23 15:35:36,716 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\lib\\_shape_base_impl.py', reloading
+2025-10-23 15:35:36,731 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\lib\\_version.py', reloading
+2025-10-23 15:35:36,737 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\lib\\introspect.py', reloading
+2025-10-23 15:35:36,749 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\lib\\mixins.py', reloading
+2025-10-23 15:35:36,759 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\lib\\npyio.py', reloading
+2025-10-23 15:35:36,760 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\lib\\scimath.py', reloading
+2025-10-23 15:35:36,777 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\lib\\_scimath_impl.py', reloading
+2025-10-23 15:35:36,794 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\_core\\einsumfunc.py', reloading
+2025-10-23 15:35:36,825 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\_core\\memmap.py', reloading
+2025-10-23 15:35:36,842 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\_core\\records.py', reloading
+2025-10-23 15:35:36,883 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\_core\\_add_newdocs.py', reloading
+2025-10-23 15:35:36,908 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\_core\\_add_newdocs_scalars.py', reloading
+2025-10-23 15:35:36,922 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\_core\\_dtype_ctypes.py', reloading
+2025-10-23 15:35:36,936 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\_core\\_internal.py', reloading
+2025-10-23 15:35:36,986 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\_array_api_info.py', reloading
+2025-10-23 15:35:37,001 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\fft\\__init__.py', reloading
+2025-10-23 15:35:37,013 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\fft\\_helper.py', reloading
+2025-10-23 15:35:37,232 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:35:38,572 - WARNING -  * Debugger is active!
+2025-10-23 15:35:38,574 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:35:40,177 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\_typing\\_add_docstring.py', reloading
+2025-10-23 15:35:40,232 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\polynomial\\__init__.py', reloading
+2025-10-23 15:35:40,248 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\polynomial\\chebyshev.py', reloading
+2025-10-23 15:35:40,276 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\polynomial\\polyutils.py', reloading
+2025-10-23 15:35:40,299 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\polynomial\\_polybase.py', reloading
+2025-10-23 15:35:40,331 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\polynomial\\polynomial.py', reloading
+2025-10-23 15:35:40,357 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\polynomial\\hermite.py', reloading
+2025-10-23 15:35:40,383 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\polynomial\\hermite_e.py', reloading
+2025-10-23 15:35:40,411 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\polynomial\\laguerre.py', reloading
+2025-10-23 15:35:40,437 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\polynomial\\legendre.py', reloading
+2025-10-23 15:35:40,458 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\ctypeslib\\__init__.py', reloading
+2025-10-23 15:35:40,470 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\ctypeslib\\_ctypeslib.py', reloading
+2025-10-23 15:35:40,493 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\matlib.py', reloading
+2025-10-23 15:35:40,498 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\f2py\\__init__.py', reloading
+2025-10-23 15:35:40,501 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\f2py\\diagnose.py', reloading
+2025-10-23 15:35:40,518 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\f2py\\f2py2e.py', reloading
+2025-10-23 15:35:40,547 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\f2py\\_backends\\__init__.py', reloading
+2025-10-23 15:35:40,560 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\f2py\\_backends\\_meson.py', reloading
+2025-10-23 15:35:40,571 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\f2py\\_backends\\_backend.py', reloading
+2025-10-23 15:35:40,582 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\f2py\\_backends\\_distutils.py', reloading
+2025-10-23 15:35:40,793 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:35:42,331 - WARNING -  * Debugger is active!
+2025-10-23 15:35:42,333 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:35:42,932 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\compat\\__init__.py', reloading
+2025-10-23 15:35:42,944 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\compat\\_constants.py', reloading
+2025-10-23 15:35:42,948 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\compat\\compressors.py', reloading
+2025-10-23 15:35:42,951 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\compat\\numpy\\__init__.py', reloading
+2025-10-23 15:35:42,955 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\util\\__init__.py', reloading
+2025-10-23 15:35:42,967 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\util\\hashing.py', reloading
+2025-10-23 15:35:42,983 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\_libs\\__init__.py', reloading
+2025-10-23 15:35:43,016 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\_typing.py', reloading
+2025-10-23 15:35:43,044 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\_libs\\tslibs\\__init__.py', reloading
+2025-10-23 15:35:43,230 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\dtypes\\dtypes.py', reloading
+2025-10-23 15:35:43,309 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pytz\\__init__.py', reloading
+2025-10-23 15:35:43,556 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:35:44,948 - WARNING -  * Debugger is active!
+2025-10-23 15:35:44,949 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:35:44,979 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pycparser\\c_lexer.py', reloading
+2025-10-23 15:35:45,001 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pycparser\\plyparser.py', reloading
+2025-10-23 15:35:45,015 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pycparser\\ast_transforms.py', reloading
+2025-10-23 15:35:45,028 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pycparser\\yacctab.py', reloading
+2025-10-23 15:35:45,396 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pycparser\\lextab.py', reloading
+2025-10-23 15:35:45,410 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\cffi\\verifier.py', reloading
+2025-10-23 15:35:45,421 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\cffi\\ffiplatform.py', reloading
+2025-10-23 15:35:45,434 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\cffi\\_shimmed_dist_utils.py', reloading
+2025-10-23 15:35:46,185 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:35:47,561 - WARNING -  * Debugger is active!
+2025-10-23 15:35:47,563 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:35:49,455 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\cffi\\vengine_gen.py', reloading
+2025-10-23 15:35:49,509 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\cffi\\vengine_cpy.py', reloading
+2025-10-23 15:35:49,546 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\cffi\\_imp_emulation.py', reloading
+2025-10-23 15:35:49,552 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\cffi\\pkgconfig.py', reloading
+2025-10-23 15:35:49,568 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\cffi\\recompiler.py', reloading
+2025-10-23 15:35:49,903 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:35:51,271 - WARNING -  * Debugger is active!
+2025-10-23 15:35:51,273 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:35:51,359 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\optimize\\_linesearch.py', reloading
+2025-10-23 15:35:51,387 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\optimize\\_dcsrch.py', reloading
+2025-10-23 15:35:51,425 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\optimize\\_numdiff.py', reloading
+2025-10-23 15:35:51,454 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\optimize\\_differentiable_functions.py', reloading
+2025-10-23 15:35:51,484 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\optimize\\_hessian_update_strategy.py', reloading
+2025-10-23 15:35:51,508 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\optimize\\_minimize.py', reloading
+2025-10-23 15:35:51,524 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\optimize\\_trustregion_dogleg.py', reloading
+2025-10-23 15:35:51,536 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\optimize\\_trustregion.py', reloading
+2025-10-23 15:35:51,545 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\optimize\\_trustregion_ncg.py', reloading
+2025-10-23 15:35:51,550 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\optimize\\_trustregion_krylov.py', reloading
+2025-10-23 15:35:51,552 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\optimize\\_trlib\\__init__.py', reloading
+2025-10-23 15:35:51,563 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\optimize\\_trustregion_exact.py', reloading
+2025-10-23 15:35:51,578 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\optimize\\_trustregion_constr\\__init__.py', reloading
+2025-10-23 15:35:51,593 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\optimize\\_trustregion_constr\\minimize_trustregion_constr.py', reloading
+2025-10-23 15:35:51,618 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\optimize\\_constraints.py', reloading
+2025-10-23 15:35:51,640 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\optimize\\_trustregion_constr\\equality_constrained_sqp.py', reloading
+2025-10-23 15:35:51,654 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\optimize\\_trustregion_constr\\projections.py', reloading
+2025-10-23 15:35:51,679 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\optimize\\_trustregion_constr\\qp_subproblem.py', reloading
+2025-10-23 15:35:51,701 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\optimize\\_trustregion_constr\\canonical_constraint.py', reloading
+2025-10-23 15:35:51,727 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\optimize\\_trustregion_constr\\tr_interior_point.py', reloading
+2025-10-23 15:35:51,744 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\optimize\\_trustregion_constr\\report.py', reloading
+2025-10-23 15:35:51,758 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\optimize\\_lbfgsb_py.py', reloading
+2025-10-23 15:35:51,777 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\_lib\\deprecation.py', reloading
+2025-10-23 15:35:51,796 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\optimize\\_tnc.py', reloading
+2025-10-23 15:35:51,813 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\optimize\\_cobyla_py.py', reloading
+2025-10-23 15:35:51,831 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\_lib\\pyprima\\__init__.py', reloading
+2025-10-23 15:35:51,849 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\_lib\\pyprima\\common\\_nonlinear_constraints.py', reloading
+2025-10-23 15:35:51,866 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\_lib\\pyprima\\common\\_linear_constraints.py', reloading
+2025-10-23 15:35:51,879 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\_lib\\pyprima\\common\\_bounds.py', reloading
+2025-10-23 15:35:51,883 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\_lib\\pyprima\\common\\_project.py', reloading
+2025-10-23 15:35:51,903 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\_lib\\pyprima\\common\\linalg.py', reloading
+2025-10-23 15:35:51,929 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\_lib\\pyprima\\common\\consts.py', reloading
+2025-10-23 15:35:51,938 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\_lib\\pyprima\\common\\present.py', reloading
+2025-10-23 15:35:51,954 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\_lib\\pyprima\\cobyla\\cobyla.py', reloading
+2025-10-23 15:35:51,977 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\_lib\\pyprima\\common\\evaluate.py', reloading
+2025-10-23 15:35:51,990 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\_lib\\pyprima\\common\\preproc.py', reloading
+2025-10-23 15:35:52,016 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\_lib\\pyprima\\cobyla\\cobylb.py', reloading
+2025-10-23 15:35:52,043 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\_lib\\pyprima\\common\\checkbreak.py', reloading
+2025-10-23 15:35:52,057 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\_lib\\pyprima\\common\\infos.py', reloading
+2025-10-23 15:35:52,068 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\_lib\\pyprima\\common\\history.py', reloading
+2025-10-23 15:35:52,085 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\_lib\\pyprima\\common\\message.py', reloading
+2025-10-23 15:35:52,100 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\_lib\\pyprima\\common\\ratio.py', reloading
+2025-10-23 15:35:52,113 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\_lib\\pyprima\\common\\redrho.py', reloading
+2025-10-23 15:35:52,128 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\_lib\\pyprima\\common\\selectx.py', reloading
+2025-10-23 15:35:52,162 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\_lib\\pyprima\\cobyla\\update.py', reloading
+2025-10-23 15:35:52,201 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\_lib\\pyprima\\cobyla\\geometry.py', reloading
+2025-10-23 15:35:52,230 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\_lib\\pyprima\\cobyla\\trustregion.py', reloading
+2025-10-23 15:35:52,261 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\_lib\\pyprima\\common\\powalg.py', reloading
+2025-10-23 15:35:52,280 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\_lib\\pyprima\\cobyla\\initialize.py', reloading
+2025-10-23 15:35:52,487 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:35:53,854 - WARNING -  * Debugger is active!
+2025-10-23 15:35:53,857 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:35:53,881 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\interpolate\\_fitpack_py.py', reloading
+2025-10-23 15:35:53,897 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\interpolate\\_fitpack_impl.py', reloading
+2025-10-23 15:35:53,973 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\interpolate\\_bsplines.py', reloading
+2025-10-23 15:35:53,992 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\desktop_app.py', reloading
+2025-10-23 15:35:54,057 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\interpolate\\_cubic.py', reloading
+2025-10-23 15:35:54,176 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\interpolate\\_polyint.py', reloading
+2025-10-23 15:35:54,241 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\interpolate\\_fitpack2.py', reloading
+2025-10-23 15:35:54,330 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\interpolate\\_rbf.py', reloading
+2025-10-23 15:35:54,359 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\interpolate\\_rbfinterp.py', reloading
+2025-10-23 15:35:54,389 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\interpolate\\_ndgriddata.py', reloading
+2025-10-23 15:35:54,417 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\interpolate\\_fitpack_repro.py', reloading
+2025-10-23 15:35:54,448 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\interpolate\\_pade.py', reloading
+2025-10-23 15:35:54,469 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\interpolate\\_rgi.py', reloading
+2025-10-23 15:35:54,545 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\interpolate\\_ndbspline.py', reloading
+2025-10-23 15:35:54,595 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\interpolate\\_bary_rational.py', reloading
+2025-10-23 15:35:54,646 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\interpolate\\fitpack.py', reloading
+2025-10-23 15:35:54,649 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\interpolate\\fitpack2.py', reloading
+2025-10-23 15:35:54,653 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\interpolate\\interpolate.py', reloading
+2025-10-23 15:35:54,677 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\interpolate\\ndgriddata.py', reloading
+2025-10-23 15:35:54,689 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\interpolate\\polyint.py', reloading
+2025-10-23 15:35:54,698 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\interpolate\\rbf.py', reloading
+2025-10-23 15:35:54,709 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\interpolate\\interpnd.py', reloading
+2025-10-23 15:35:54,718 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\spatial\\transform\\rotation.py', reloading
+2025-10-23 15:35:54,733 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\stats\\distributions.py', reloading
+2025-10-23 15:35:54,752 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\stats\\_distn_infrastructure.py', reloading
+2025-10-23 15:35:55,189 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:35:57,025 - WARNING -  * Debugger is active!
+2025-10-23 15:35:57,026 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:35:57,056 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\stats\\_hypotests.py', reloading
+2025-10-23 15:35:57,085 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\stats\\_common.py', reloading
+2025-10-23 15:35:57,101 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\stats\\_resampling.py', reloading
+2025-10-23 15:35:57,145 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\stats\\_binomtest.py', reloading
+2025-10-23 15:35:57,166 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\stats\\_variation.py', reloading
+2025-10-23 15:35:57,179 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\stats\\_morestats.py', reloading
+2025-10-23 15:35:57,251 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\stats\\_wilcoxon.py', reloading
+2025-10-23 15:35:57,274 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\stats\\_fit.py', reloading
+2025-10-23 15:35:57,310 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\stats\\contingency.py', reloading
+2025-10-23 15:35:57,327 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\stats\\_relative_risk.py', reloading
+2025-10-23 15:35:57,332 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\stats\\_crosstab.py', reloading
+2025-10-23 15:35:57,348 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\stats\\_odds_ratio.py', reloading
+2025-10-23 15:35:57,368 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\stats\\_multicomp.py', reloading
+2025-10-23 15:35:57,393 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\stats\\_qmc.py', reloading
+2025-10-23 15:35:57,449 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\csgraph\\__init__.py', reloading
+2025-10-23 15:35:57,465 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\csgraph\\_laplacian.py', reloading
+2025-10-23 15:35:57,518 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\stats\\_binned_statistic.py', reloading
+2025-10-23 15:35:57,545 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\stats\\_kde.py', reloading
+2025-10-23 15:35:57,569 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\stats\\_multivariate.py', reloading
+2025-10-23 15:35:57,694 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\stats\\_covariance.py', reloading
+2025-10-23 15:35:57,702 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\stats\\_rcont\\__init__.py', reloading
+2025-10-23 15:35:57,715 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\stats\\_qmvnt.py', reloading
+2025-10-23 15:35:57,741 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\stats\\mstats.py', reloading
+2025-10-23 15:35:57,758 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\stats\\_mstats_extras.py', reloading
+2025-10-23 15:35:57,779 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\stats\\qmc.py', reloading
+2025-10-23 15:35:57,793 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\stats\\_page_trend_test.py', reloading
+2025-10-23 15:35:57,813 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\stats\\_mannwhitneyu.py', reloading
+2025-10-23 15:35:57,834 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\stats\\_bws_test.py', reloading
+2025-10-23 15:35:57,849 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\stats\\_sensitivity_analysis.py', reloading
+2025-10-23 15:35:57,872 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\stats\\_survival.py', reloading
+2025-10-23 15:35:57,894 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\stats\\_distribution_infrastructure.py', reloading
+2025-10-23 15:35:58,242 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:35:59,554 - WARNING -  * Debugger is active!
+2025-10-23 15:35:59,555 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:35:59,565 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\linalg\\decomp.py', reloading
+2025-10-23 15:35:59,567 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\linalg\\decomp_cholesky.py', reloading
+2025-10-23 15:35:59,568 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\linalg\\decomp_lu.py', reloading
+2025-10-23 15:35:59,577 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\linalg\\decomp_qr.py', reloading
+2025-10-23 15:35:59,585 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\linalg\\decomp_svd.py', reloading
+2025-10-23 15:35:59,587 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\linalg\\decomp_schur.py', reloading
+2025-10-23 15:35:59,596 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\linalg\\basic.py', reloading
+2025-10-23 15:35:59,602 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\linalg\\misc.py', reloading
+2025-10-23 15:35:59,612 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\linalg\\special_matrices.py', reloading
+2025-10-23 15:35:59,613 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\linalg\\matfuncs.py', reloading
+2025-10-23 15:35:59,630 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\linalg\\_isolve\\minres.py', reloading
+2025-10-23 15:35:59,647 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\linalg\\_isolve\\lgmres.py', reloading
+2025-10-23 15:35:59,662 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\linalg\\_isolve\\_gcrotmk.py', reloading
+2025-10-23 15:35:59,684 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\linalg\\_isolve\\lsqr.py', reloading
+2025-10-23 15:35:59,706 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\linalg\\_isolve\\lsmr.py', reloading
+2025-10-23 15:35:59,715 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\linalg\\_isolve\\tfqmr.py', reloading
+2025-10-23 15:35:59,729 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\linalg\\_dsolve\\__init__.py', reloading
+2025-10-23 15:35:59,741 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\linalg\\_dsolve\\linsolve.py', reloading
+2025-10-23 15:35:59,758 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\linalg\\_dsolve\\_add_newdocs.py', reloading
+2025-10-23 15:35:59,760 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\linalg\\_eigen\\__init__.py', reloading
+2025-10-23 15:35:59,761 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\linalg\\_eigen\\arpack\\__init__.py', reloading
+2025-10-23 15:35:59,775 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\linalg\\_eigen\\arpack\\arpack.py', reloading
+2025-10-23 15:35:59,809 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\_lib\\_threadsafety.py', reloading
+2025-10-23 15:35:59,812 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\linalg\\_eigen\\lobpcg\\__init__.py', reloading
+2025-10-23 15:35:59,826 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\linalg\\_eigen\\lobpcg\\lobpcg.py', reloading
+2025-10-23 15:35:59,860 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\linalg\\_eigen\\_svds.py', reloading
+2025-10-23 15:35:59,877 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\linalg\\_svdp.py', reloading
+2025-10-23 15:35:59,895 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\linalg\\_matfuncs.py', reloading
+2025-10-23 15:35:59,947 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\linalg\\_expm_multiply.py', reloading
+2025-10-23 15:35:59,973 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\linalg\\_onenormest.py', reloading
+2025-10-23 15:35:59,993 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\linalg\\_norm.py', reloading
+2025-10-23 15:36:00,010 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\linalg\\_special_sparse_arrays.py', reloading
+2025-10-23 15:36:00,035 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\linalg\\isolve.py', reloading
+2025-10-23 15:36:00,043 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\linalg\\dsolve.py', reloading
+2025-10-23 15:36:00,049 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\linalg\\interface.py', reloading
+2025-10-23 15:36:00,051 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\linalg\\eigen.py', reloading
+2025-10-23 15:36:00,059 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\linalg\\matfuncs.py', reloading
+2025-10-23 15:36:00,073 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\base.py', reloading
+2025-10-23 15:36:00,080 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\bsr.py', reloading
+2025-10-23 15:36:00,087 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\compressed.py', reloading
+2025-10-23 15:36:00,098 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\construct.py', reloading
+2025-10-23 15:36:00,106 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\coo.py', reloading
+2025-10-23 15:36:00,108 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\csc.py', reloading
+2025-10-23 15:36:00,115 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\csr.py', reloading
+2025-10-23 15:36:00,122 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\data.py', reloading
+2025-10-23 15:36:00,129 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\dia.py', reloading
+2025-10-23 15:36:00,136 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\dok.py', reloading
+2025-10-23 15:36:00,144 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\extract.py', reloading
+2025-10-23 15:36:00,151 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\lil.py', reloading
+2025-10-23 15:36:00,153 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\sparsetools.py', reloading
+2025-10-23 15:36:00,161 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\sputils.py', reloading
+2025-10-23 15:36:00,175 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\arrays\\string_.py', reloading
+2025-10-23 15:36:00,230 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\compat\\numpy\\function.py', reloading
+2025-10-23 15:36:00,249 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\util\\_validators.py', reloading
+2025-10-23 15:36:00,269 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\missing.py', reloading
+2025-10-23 15:36:00,304 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\compat\\_optional.py', reloading
+2025-10-23 15:36:00,323 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\dtypes\\cast.py', reloading
+2025-10-23 15:36:00,418 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\dtypes\\missing.py', reloading
+2025-10-23 15:36:00,511 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\indexes\\base.py', reloading
+2025-10-23 15:36:00,943 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:36:02,427 - WARNING -  * Debugger is active!
+2025-10-23 15:36:02,428 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:36:02,488 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\apply.py', reloading
+2025-10-23 15:36:02,548 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\_numba\\executor.py', reloading
+2025-10-23 15:36:02,570 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\resample.py', reloading
+2025-10-23 15:36:02,632 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\base.py', reloading
+2025-10-23 15:36:02,665 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\accessor.py', reloading
+2025-10-23 15:36:02,702 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\generic.py', reloading
+2025-10-23 15:36:02,950 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\indexing.py', reloading
+2025-10-23 15:36:03,036 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\sample.py', reloading
+2025-10-23 15:36:03,050 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\array_algos\\replace.py', reloading
+2025-10-23 15:36:03,068 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\flags.py', reloading
+2025-10-23 15:36:03,089 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\internals\\construction.py', reloading
+2025-10-23 15:36:03,136 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\internals\\array_manager.py', reloading
+2025-10-23 15:36:03,332 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\internals\\base.py', reloading
+2025-10-23 15:36:03,375 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\internals\\blocks.py', reloading
+2025-10-23 15:36:03,974 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:36:05,596 - WARNING -  * Debugger is active!
+2025-10-23 15:36:05,597 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:36:05,618 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\indexes\\multi.py', reloading
+2025-10-23 15:36:05,710 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\indexes\\frozen.py', reloading
+2025-10-23 15:36:05,728 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\reshape\\util.py', reloading
+2025-10-23 15:36:05,743 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\io\\formats\\html.py', reloading
+2025-10-23 15:36:05,767 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\io\\formats\\string.py', reloading
+2025-10-23 15:36:05,786 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\io\\formats\\csvs.py', reloading
+2025-10-23 15:36:05,814 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\io\\formats\\style_render.py', reloading
+2025-10-23 15:36:05,878 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\uuid.py', reloading
+2025-10-23 15:36:05,921 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\api\\__init__.py', reloading
+2025-10-23 15:36:05,923 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\api\\extensions\\__init__.py', reloading
+2025-10-23 15:36:05,925 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\api\\indexers\\__init__.py', reloading
+2025-10-23 15:36:05,936 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\indexers\\objects.py', reloading
+2025-10-23 15:36:05,957 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\tseries\\__init__.py', reloading
+2025-10-23 15:36:05,968 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\tseries\\frequencies.py', reloading
+2025-10-23 15:36:06,001 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\tseries\\offsets.py', reloading
+2025-10-23 15:36:06,011 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\api\\interchange\\__init__.py', reloading
+2025-10-23 15:36:06,022 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\interchange\\dataframe_protocol.py', reloading
+2025-10-23 15:36:06,039 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\interchange\\from_dataframe.py', reloading
+2025-10-23 15:36:06,062 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\interchange\\utils.py', reloading
+2025-10-23 15:36:06,073 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\api\\types\\__init__.py', reloading
+2025-10-23 15:36:06,082 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\dtypes\\api.py', reloading
+2025-10-23 15:36:06,096 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\api\\typing\\__init__.py', reloading
+2025-10-23 15:36:06,104 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\window\\__init__.py', reloading
+2025-10-23 15:36:06,117 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\window\\ewm.py', reloading
+2025-10-23 15:36:06,161 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\util\\numba_.py', reloading
+2025-10-23 15:36:06,174 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\window\\common.py', reloading
+2025-10-23 15:36:06,182 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\window\\doc.py', reloading
+2025-10-23 15:36:06,198 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\window\\numba_.py', reloading
+2025-10-23 15:36:06,216 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\window\\online.py', reloading
+2025-10-23 15:36:06,234 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\window\\rolling.py', reloading
+2025-10-23 15:36:06,310 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\groupby\\ops.py', reloading
+2025-10-23 15:36:06,447 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\groupby\\grouper.py', reloading
+2025-10-23 15:36:06,483 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\groupby\\categorical.py', reloading
+2025-10-23 15:36:06,540 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\series.py', reloading
+2025-10-23 15:36:06,862 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:36:08,207 - WARNING -  * Debugger is active!
+2025-10-23 15:36:08,208 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:36:08,227 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\methods\\describe.py', reloading
+2025-10-23 15:36:08,240 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\computation\\parsing.py', reloading
+2025-10-23 15:36:08,266 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\io\\pytables.py', reloading
+2025-10-23 15:36:08,413 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\compat\\pickle_compat.py', reloading
+2025-10-23 15:36:08,437 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\computation\\pytables.py', reloading
+2025-10-23 15:36:08,486 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\computation\\expr.py', reloading
+2025-10-23 15:36:08,516 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\computation\\ops.py', reloading
+2025-10-23 15:36:08,532 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\computation\\common.py', reloading
+2025-10-23 15:36:08,546 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\computation\\scope.py', reloading
+2025-10-23 15:36:08,564 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\computation\\eval.py', reloading
+2025-10-23 15:36:08,579 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\computation\\engines.py', reloading
+2025-10-23 15:36:08,593 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\computation\\align.py', reloading
+2025-10-23 15:36:08,618 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\io\\sql.py', reloading
+2025-10-23 15:36:08,687 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\sqlite3\\__init__.py', reloading
+2025-10-23 15:36:08,926 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\sqlite3\\dbapi2.py', reloading
+2025-10-23 15:36:09,040 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\io\\pickle.py', reloading
+2025-10-23 15:36:09,045 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\io\\clipboards.py', reloading
+2025-10-23 15:36:09,061 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\io\\clipboard\\__init__.py', reloading
+2025-10-23 15:36:09,115 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\groupby\\groupby.py', reloading
+2025-10-23 15:36:09,209 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\arrays\\string_arrow.py', reloading
+2025-10-23 15:36:09,426 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:36:10,722 - WARNING -  * Debugger is active!
+2025-10-23 15:36:10,724 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:36:10,743 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\compat\\pyarrow.py', reloading
+2025-10-23 15:36:10,760 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\config_init.py', reloading
+2025-10-23 15:36:10,773 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\tseries\\api.py', reloading
+2025-10-23 15:36:10,775 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\computation\\api.py', reloading
+2025-10-23 15:36:10,776 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\reshape\\api.py', reloading
+2025-10-23 15:36:10,786 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\core\\reshape\\encoding.py', reloading
+2025-10-23 15:36:10,801 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\testing.py', reloading
+2025-10-23 15:36:10,817 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\_testing\\__init__.py', reloading
+2025-10-23 15:36:10,833 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\_config\\localization.py', reloading
+2025-10-23 15:36:10,850 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\_testing\\_io.py', reloading
+2025-10-23 15:36:10,864 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\_testing\\contexts.py', reloading
+2025-10-23 15:36:10,884 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\_testing\\_warnings.py', reloading
+2025-10-23 15:36:10,900 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\_testing\\asserters.py', reloading
+2025-10-23 15:36:10,940 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\_testing\\compat.py', reloading
+2025-10-23 15:36:10,952 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\util\\_print_versions.py', reloading
+2025-10-23 15:36:10,962 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\_version_meson.py', reloading
+2025-10-23 15:36:10,974 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\_version.py', reloading
+2025-10-23 15:36:10,999 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\io\\api.py', reloading
+2025-10-23 15:36:11,012 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\io\\html.py', reloading
+2025-10-23 15:36:11,041 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\io\\sas\\__init__.py', reloading
+2025-10-23 15:36:11,051 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\io\\sas\\sasreader.py', reloading
+2025-10-23 15:36:11,066 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\io\\sas\\sas_xport.py', reloading
+2025-10-23 15:36:11,091 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\io\\sas\\sas7bdat.py', reloading
+2025-10-23 15:36:11,167 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\io\\sas\\sas_constants.py', reloading
+2025-10-23 15:36:11,185 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\io\\spss.py', reloading
+2025-10-23 15:36:11,188 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\pandas\\util\\_tester.py', reloading
+2025-10-23 15:36:11,192 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\__init__.py', reloading
+2025-10-23 15:36:11,699 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\_config.py', reloading
+2025-10-23 15:36:11,714 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\utils\\__init__.py', reloading
+2025-10-23 15:36:11,720 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\exceptions.py', reloading
+2025-10-23 15:36:11,947 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:36:13,956 - WARNING -  * Debugger is active!
+2025-10-23 15:36:13,958 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:36:13,974 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\utils\\_set_output.py', reloading
+2025-10-23 15:36:14,003 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\utils\\_available_if.py', reloading
+2025-10-23 15:36:14,017 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\utils\\_tags.py', reloading
+2025-10-23 15:36:14,030 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\utils\\_pprint.py', reloading
+2025-10-23 15:36:14,050 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\metrics\\__init__.py', reloading
+2025-10-23 15:36:15,216 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:36:16,543 - WARNING -  * Debugger is active!
+2025-10-23 15:36:16,545 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:36:16,689 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\metrics\\cluster\\__init__.py', reloading
+2025-10-23 15:36:16,700 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\metrics\\cluster\\_bicluster.py', reloading
+2025-10-23 15:36:16,715 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\metrics\\cluster\\_supervised.py', reloading
+2025-10-23 15:36:16,736 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\utils\\multiclass.py', reloading
+2025-10-23 15:36:16,761 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\metrics\\cluster\\_unsupervised.py', reloading
+2025-10-23 15:36:16,777 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\preprocessing\\__init__.py', reloading
+2025-10-23 15:36:16,795 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\preprocessing\\_data.py', reloading
+2025-10-23 15:36:16,855 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\utils\\extmath.py', reloading
+2025-10-23 15:36:16,883 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\utils\\sparsefuncs.py', reloading
+2025-10-23 15:36:16,911 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\preprocessing\\_encoders.py', reloading
+2025-10-23 15:36:16,958 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\utils\\_encode.py', reloading
+2025-10-23 15:36:16,998 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\utils\\_mask.py', reloading
+2025-10-23 15:36:17,018 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\preprocessing\\_discretization.py', reloading
+2025-10-23 15:36:17,029 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\utils\\stats.py', reloading
+2025-10-23 15:36:17,042 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\cluster\\__init__.py', reloading
+2025-10-23 15:36:17,062 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\cluster\\_affinity_propagation.py', reloading
+2025-10-23 15:36:17,148 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\cluster\\_agglomerative.py', reloading
+2025-10-23 15:36:17,192 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\metrics\\pairwise.py', reloading
+2025-10-23 15:36:17,304 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\utils\\deprecation.py', reloading
+2025-10-23 15:36:17,340 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\metrics\\_pairwise_distances_reduction\\__init__.py', reloading
+2025-10-23 15:36:17,357 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\metrics\\_pairwise_distances_reduction\\_dispatcher.py', reloading
+2025-10-23 15:36:17,372 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\gaussian_process\\__init__.py', reloading
+2025-10-23 15:36:17,418 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\gaussian_process\\kernels.py', reloading
+2025-10-23 15:36:17,474 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\gaussian_process\\_gpc.py', reloading
+2025-10-23 15:36:17,502 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\multiclass.py', reloading
+2025-10-23 15:36:17,531 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\utils\\metaestimators.py', reloading
+2025-10-23 15:36:17,548 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\utils\\optimize.py', reloading
+2025-10-23 15:36:17,798 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:36:19,212 - WARNING -  * Debugger is active!
+2025-10-23 15:36:19,213 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:36:19,225 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\linear_model\\_logistic.py', reloading
+2025-10-23 15:36:19,254 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\svm\\__init__.py', reloading
+2025-10-23 15:36:19,265 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\svm\\_bounds.py', reloading
+2025-10-23 15:36:19,277 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\svm\\_classes.py', reloading
+2025-10-23 15:36:19,299 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\svm\\_base.py', reloading
+2025-10-23 15:36:19,414 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\linear_model\\_sag.py', reloading
+2025-10-23 15:36:19,430 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\linear_model\\_omp.py', reloading
+2025-10-23 15:36:19,458 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\linear_model\\_passive_aggressive.py', reloading
+2025-10-23 15:36:19,473 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\linear_model\\_stochastic_gradient.py', reloading
+2025-10-23 15:36:19,514 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\linear_model\\_perceptron.py', reloading
+2025-10-23 15:36:19,527 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\linear_model\\_quantile.py', reloading
+2025-10-23 15:36:19,542 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\linear_model\\_ransac.py', reloading
+2025-10-23 15:36:19,561 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\linear_model\\_ridge.py', reloading
+2025-10-23 15:36:19,614 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\linear_model\\_theil_sen.py', reloading
+2025-10-23 15:36:19,633 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\decomposition\\_factor_analysis.py', reloading
+2025-10-23 15:36:19,653 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\decomposition\\_fastica.py', reloading
+2025-10-23 15:36:19,675 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\decomposition\\_incremental_pca.py', reloading
+2025-10-23 15:36:19,691 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\decomposition\\_base.py', reloading
+2025-10-23 15:36:19,707 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\decomposition\\_kernel_pca.py', reloading
+2025-10-23 15:36:19,723 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\utils\\_arpack.py', reloading
+2025-10-23 15:36:19,735 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\decomposition\\_lda.py', reloading
+2025-10-23 15:36:19,764 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\decomposition\\_nmf.py', reloading
+2025-10-23 15:36:19,809 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\decomposition\\_pca.py', reloading
+2025-10-23 15:36:19,835 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\decomposition\\_sparse_pca.py', reloading
+2025-10-23 15:36:19,853 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\decomposition\\_truncated_svd.py', reloading
+2025-10-23 15:36:19,871 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\discriminant_analysis.py', reloading
+2025-10-23 15:36:19,889 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\covariance\\__init__.py', reloading
+2025-10-23 15:36:19,901 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\covariance\\_elliptic_envelope.py', reloading
+2025-10-23 15:36:19,914 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\covariance\\_robust_covariance.py', reloading
+2025-10-23 15:36:19,937 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\covariance\\_empirical_covariance.py', reloading
+2025-10-23 15:36:19,953 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\covariance\\_graph_lasso.py', reloading
+2025-10-23 15:36:19,981 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\covariance\\_shrunk_covariance.py', reloading
+2025-10-23 15:36:20,001 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\neighbors\\_nearest_centroid.py', reloading
+2025-10-23 15:36:20,019 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\neighbors\\_regression.py', reloading
+2025-10-23 15:36:20,026 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\cluster\\_hdbscan\\__init__.py', reloading
+2025-10-23 15:36:20,038 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\cluster\\_hdbscan\\hdbscan.py', reloading
+2025-10-23 15:36:20,081 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\cluster\\_mean_shift.py', reloading
+2025-10-23 15:36:20,101 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\cluster\\_optics.py', reloading
+2025-10-23 15:36:20,128 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\cluster\\_spectral.py', reloading
+2025-10-23 15:36:20,144 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\manifold\\__init__.py', reloading
+2025-10-23 15:36:20,154 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\manifold\\_isomap.py', reloading
+2025-10-23 15:36:20,173 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\manifold\\_locally_linear.py', reloading
+2025-10-23 15:36:20,199 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\manifold\\_mds.py', reloading
+2025-10-23 15:36:20,218 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\isotonic.py', reloading
+2025-10-23 15:36:20,430 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:36:21,785 - WARNING -  * Debugger is active!
+2025-10-23 15:36:21,785 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:36:21,825 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\urllib3\\util\\response.py', reloading
+2025-10-23 15:36:21,838 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\urllib3\\util\\retry.py', reloading
+2025-10-23 15:36:21,865 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\urllib3\\connectionpool.py', reloading
+2025-10-23 15:36:21,899 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\urllib3\\_collections.py', reloading
+2025-10-23 15:36:21,932 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\urllib3\\_request_methods.py', reloading
+2025-10-23 15:36:21,937 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\urllib3\\filepost.py', reloading
+2025-10-23 15:36:21,952 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\urllib3\\fields.py', reloading
+2025-10-23 15:36:21,969 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\urllib3\\util\\proxy.py', reloading
+2025-10-23 15:36:21,984 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\urllib3\\util\\url.py', reloading
+2025-10-23 15:36:22,002 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\idna\\__init__.py', reloading
+2025-10-23 15:36:22,013 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\idna\\core.py', reloading
+2025-10-23 15:36:22,035 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\idna\\idnadata.py', reloading
+2025-10-23 15:36:22,100 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\idna\\intranges.py', reloading
+2025-10-23 15:36:22,121 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\idna\\uts46data.py', reloading
+2025-10-23 15:36:22,333 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\idna\\package_data.py', reloading
+2025-10-23 15:36:22,344 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\urllib3\\util\\ssl_match_hostname.py', reloading
+2025-10-23 15:36:22,358 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\urllib3\\util\\ssl_.py', reloading
+2025-10-23 15:36:22,378 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\urllib3\\util\\ssltransport.py', reloading
+2025-10-23 15:36:22,390 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\urllib3\\util\\wait.py', reloading
+2025-10-23 15:36:22,396 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\urllib3\\http2\\__init__.py', reloading
+2025-10-23 15:36:22,410 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\urllib3\\http2\\connection.py', reloading
+2025-10-23 15:36:22,433 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\urllib3\\http2\\probe.py', reloading
+2025-10-23 15:36:22,438 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\urllib3\\_version.py', reloading
+2025-10-23 15:36:22,454 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\urllib3\\poolmanager.py', reloading
+2025-10-23 15:36:22,479 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\__init__.py', reloading
+2025-10-23 15:36:22,491 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\connection.py', reloading
+2025-10-23 15:36:22,508 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\fetch.py', reloading
+2025-10-23 15:36:22,533 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\request.py', reloading
+2025-10-23 15:36:22,546 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\response.py', reloading
+2025-10-23 15:36:22,569 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\requests\\exceptions.py', reloading
+2025-10-23 15:36:22,584 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\requests\\compat.py', reloading
+2025-10-23 15:36:22,599 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\http\\cookies.py', reloading
+2025-10-23 15:36:22,624 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\urllib3\\contrib\\pyopenssl.py', reloading
+2025-10-23 15:36:22,642 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\cryptography\\__init__.py', reloading
+2025-10-23 15:36:23,144 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:36:24,965 - WARNING -  * Debugger is active!
+2025-10-23 15:36:24,966 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:36:24,985 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\requests\\utils.py', reloading
+2025-10-23 15:36:25,007 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\requests\\certs.py', reloading
+2025-10-23 15:36:25,014 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\certifi\\__init__.py', reloading
+2025-10-23 15:36:25,026 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\certifi\\core.py', reloading
+2025-10-23 15:36:25,035 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\requests\\__version__.py', reloading
+2025-10-23 15:36:25,045 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\requests\\_internal_utils.py', reloading
+2025-10-23 15:36:25,057 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\requests\\cookies.py', reloading
+2025-10-23 15:36:25,080 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\requests\\structures.py', reloading
+2025-10-23 15:36:25,095 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\requests\\api.py', reloading
+2025-10-23 15:36:25,107 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\requests\\sessions.py', reloading
+2025-10-23 15:36:25,131 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\requests\\adapters.py', reloading
+2025-10-23 15:36:25,154 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\requests\\auth.py', reloading
+2025-10-23 15:36:25,175 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\requests\\models.py', reloading
+2025-10-23 15:36:25,204 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\requests\\hooks.py', reloading
+2025-10-23 15:36:25,215 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\requests\\status_codes.py', reloading
+2025-10-23 15:36:25,221 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\urllib3\\contrib\\socks.py', reloading
+2025-10-23 15:36:25,232 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\__init__.py', reloading
+2025-10-23 15:36:25,234 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\api\\__init__.py', reloading
+2025-10-23 15:36:25,246 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\api\\client.py', reloading
+2025-10-23 15:36:25,270 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\auth.py', reloading
+2025-10-23 15:36:25,283 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\credentials\\__init__.py', reloading
+2025-10-23 15:36:25,291 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\credentials\\constants.py', reloading
+2025-10-23 15:36:25,297 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\credentials\\errors.py', reloading
+2025-10-23 15:36:25,309 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\credentials\\store.py', reloading
+2025-10-23 15:36:25,318 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\credentials\\utils.py', reloading
+2025-10-23 15:36:25,329 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\errors.py', reloading
+2025-10-23 15:36:25,336 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\utils\\__init__.py', reloading
+2025-10-23 15:36:25,350 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\utils\\build.py', reloading
+2025-10-23 15:36:25,369 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\constants.py', reloading
+2025-10-23 15:36:25,380 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\version.py', reloading
+2025-10-23 15:36:25,388 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\_version.py', reloading
+2025-10-23 15:36:25,399 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\utils\\fnmatch.py', reloading
+2025-10-23 15:36:25,404 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\utils\\decorators.py', reloading
+2025-10-23 15:36:25,432 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\utils\\utils.py', reloading
+2025-10-23 15:36:25,448 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\tls.py', reloading
+2025-10-23 15:36:25,460 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\utils\\config.py', reloading
+2025-10-23 15:36:25,464 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\transport\\__init__.py', reloading
+2025-10-23 15:36:25,480 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\transport\\unixconn.py', reloading
+2025-10-23 15:36:25,487 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\transport\\basehttpadapter.py', reloading
+2025-10-23 15:36:25,501 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\transport\\npipeconn.py', reloading
+2025-10-23 15:36:25,519 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\transport\\npipesocket.py', reloading
+2025-10-23 15:36:25,535 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\win32\\lib\\pywintypes.py', reloading
+2025-10-23 15:36:25,609 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\transport\\sshconn.py', reloading
+2025-10-23 15:36:25,629 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\utils\\json_stream.py', reloading
+2025-10-23 15:36:25,643 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\utils\\proxy.py', reloading
+2025-10-23 15:36:25,646 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\utils\\socket.py', reloading
+2025-10-23 15:36:25,661 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\api\\build.py', reloading
+2025-10-23 15:36:25,670 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\api\\config.py', reloading
+2025-10-23 15:36:25,682 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\api\\container.py', reloading
+2025-10-23 15:36:25,703 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\types\\__init__.py', reloading
+2025-10-23 15:36:25,715 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\types\\containers.py', reloading
+2025-10-23 15:36:25,740 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\types\\base.py', reloading
+2025-10-23 15:36:25,750 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\types\\healthcheck.py', reloading
+2025-10-23 15:36:25,755 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\types\\daemon.py', reloading
+2025-10-23 15:36:25,759 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\types\\networks.py', reloading
+2025-10-23 15:36:25,775 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\types\\services.py', reloading
+2025-10-23 15:36:25,793 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\types\\swarm.py', reloading
+2025-10-23 15:36:25,798 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\api\\daemon.py', reloading
+2025-10-23 15:36:25,812 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\api\\exec_api.py', reloading
+2025-10-23 15:36:25,826 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\api\\image.py', reloading
+2025-10-23 15:36:25,849 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\api\\network.py', reloading
+2025-10-23 15:36:25,864 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\api\\plugin.py', reloading
+2025-10-23 15:36:25,882 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\api\\secret.py', reloading
+2025-10-23 15:36:25,899 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\api\\service.py', reloading
+2025-10-23 15:36:25,924 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\api\\swarm.py', reloading
+2025-10-23 15:36:25,931 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\api\\volume.py', reloading
+2025-10-23 15:36:25,936 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\client.py', reloading
+2025-10-23 15:36:25,942 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\models\\configs.py', reloading
+2025-10-23 15:36:25,945 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\models\\resource.py', reloading
+2025-10-23 15:36:25,961 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\docker\\models\\containers.py', reloading
+2025-10-23 15:36:26,192 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:36:27,508 - WARNING -  * Debugger is active!
+2025-10-23 15:36:27,509 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:36:27,674 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\click\\types.py', reloading
+2025-10-23 15:36:27,712 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\click\\_compat.py', reloading
+2025-10-23 15:36:27,743 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\click\\_winconsole.py', reloading
+2025-10-23 15:36:27,769 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\click\\exceptions.py', reloading
+2025-10-23 15:36:27,790 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\click\\globals.py', reloading
+2025-10-23 15:36:27,802 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\click\\utils.py', reloading
+2025-10-23 15:36:27,839 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\click\\shell_completion.py', reloading
+2025-10-23 15:36:27,854 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\click\\_utils.py', reloading
+2025-10-23 15:36:27,868 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\click\\formatting.py', reloading
+2025-10-23 15:36:27,888 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\click\\parser.py', reloading
+2025-10-23 15:36:27,911 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\click\\_textwrap.py', reloading
+2025-10-23 15:36:27,926 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\click\\termui.py', reloading
+2025-10-23 15:36:27,951 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\click\\_termui_impl.py', reloading
+2025-10-23 15:36:27,986 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\click\\decorators.py', reloading
+2025-10-23 15:36:28,017 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\werkzeug\\routing\\__init__.py', reloading
+2025-10-23 15:36:28,030 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\werkzeug\\routing\\converters.py', reloading
+2025-10-23 15:36:28,055 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\werkzeug\\routing\\map.py', reloading
+2025-10-23 15:36:28,074 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\werkzeug\\routing\\exceptions.py', reloading
+2025-10-23 15:36:28,096 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\werkzeug\\routing\\rules.py', reloading
+2025-10-23 15:36:28,134 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\werkzeug\\routing\\matcher.py', reloading
+2025-10-23 15:36:28,158 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\flask\\cli.py', reloading
+2025-10-23 15:36:28,196 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\flask\\helpers.py', reloading
+2025-10-23 15:36:28,214 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\flask\\signals.py', reloading
+2025-10-23 15:36:28,222 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\blinker\\__init__.py', reloading
+2025-10-23 15:36:28,233 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\blinker\\base.py', reloading
+2025-10-23 15:36:28,246 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\blinker\\_utilities.py', reloading
+2025-10-23 15:36:28,263 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\flask\\debughelpers.py', reloading
+2025-10-23 15:36:28,282 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\jinja2\\bccache.py', reloading
+2025-10-23 15:36:28,348 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\jinja2\\nodes.py', reloading
+2025-10-23 15:36:28,401 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\jinja2\\utils.py', reloading
+2025-10-23 15:36:28,437 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\jinja2\\runtime.py', reloading
+2025-10-23 15:36:28,481 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\jinja2\\async_utils.py', reloading
+2025-10-23 15:36:28,498 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\jinja2\\exceptions.py', reloading
+2025-10-23 15:36:28,515 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\jinja2\\lexer.py', reloading
+2025-10-23 15:36:28,719 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:36:30,365 - WARNING -  * Debugger is active!
+2025-10-23 15:36:30,366 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:36:32,683 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\_core\\_exceptions.py', reloading
+2025-10-23 15:36:32,696 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\cupy\\fft.py', reloading
+2025-10-23 15:36:32,709 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\common\\_fft.py', reloading
+2025-10-23 15:36:32,725 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\cupy\\linalg.py', reloading
+2025-10-23 15:36:32,734 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\dask\\array\\fft.py', reloading
+2025-10-23 15:36:32,737 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\dask\\array\\linalg.py', reloading
+2025-10-23 15:36:32,741 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\numpy\\fft.py', reloading
+2025-10-23 15:36:32,751 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\torch\\fft.py', reloading
+2025-10-23 15:36:32,755 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\sklearn\\externals\\array_api_compat\\torch\\linalg.py', reloading
+2025-10-23 15:36:32,782 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\_lib\\array_api_compat\\numpy\\fft.py', reloading
+2025-10-23 15:36:32,785 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\_lib\\array_api_compat\\common\\_fft.py', reloading
+2025-10-23 15:36:32,799 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\f2py\\__main__.py', reloading
+2025-10-23 15:36:32,811 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\numpy\\f2py\\_src_pyf.py', reloading
+2025-10-23 15:36:32,819 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\sparse\\csgraph\\_validation.py', reloading
+2025-10-23 15:36:32,823 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\spatial\\transform\\_rotation_groups.py', reloading
+2025-10-23 15:36:32,842 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\constants\\__init__.py', reloading
+2025-10-23 15:36:32,860 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\constants\\_codata.py', reloading
+2025-10-23 15:36:32,884 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\constants\\_constants.py', reloading
+2025-10-23 15:36:32,899 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\constants\\codata.py', reloading
+2025-10-23 15:36:32,902 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\site-packages\\scipy\\constants\\constants.py', reloading
+2025-10-23 15:36:32,963 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\sqlite3\\__main__.py', reloading
+2025-10-23 15:36:32,978 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\sqlite3\\dump.py', reloading
+2025-10-23 15:36:32,991 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\ctypes\\_layout.py', reloading
+2025-10-23 15:36:33,601 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:36:34,948 - WARNING -  * Debugger is active!
+2025-10-23 15:36:34,949 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:36:40,030 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\build\\FuturisticAntivirus\\base_library.zip', reloading
+2025-10-23 15:36:40,044 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\build\\FuturisticAntivirus\\base_library.zip', reloading
+2025-10-23 15:36:41,184 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:36:42,896 - WARNING -  * Debugger is active!
+2025-10-23 15:36:42,897 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:36:44,780 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\build\\FuturisticAntivirus\\localpycs\\struct.pyc', reloading
+2025-10-23 15:36:44,780 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\build\\FuturisticAntivirus\\localpycs\\struct.pyc', reloading
+2025-10-23 15:36:44,781 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\build\\FuturisticAntivirus\\localpycs\\struct.pyc', reloading
+2025-10-23 15:36:44,783 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\build\\FuturisticAntivirus\\localpycs\\pyimod01_archive.pyc', reloading
+2025-10-23 15:36:44,784 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\build\\FuturisticAntivirus\\localpycs\\pyimod01_archive.pyc', reloading
+2025-10-23 15:36:44,799 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\build\\FuturisticAntivirus\\localpycs\\pyimod02_importers.pyc', reloading
+2025-10-23 15:36:44,800 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\build\\FuturisticAntivirus\\localpycs\\pyimod02_importers.pyc', reloading
+2025-10-23 15:36:44,810 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\build\\FuturisticAntivirus\\localpycs\\pyimod03_ctypes.pyc', reloading
+2025-10-23 15:36:44,810 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\build\\FuturisticAntivirus\\localpycs\\pyimod03_ctypes.pyc', reloading
+2025-10-23 15:36:44,813 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\build\\FuturisticAntivirus\\localpycs\\pyimod04_pywin32.pyc', reloading
+2025-10-23 15:36:44,813 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\build\\FuturisticAntivirus\\localpycs\\pyimod04_pywin32.pyc', reloading
+2025-10-23 15:36:45,088 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:36:46,401 - WARNING -  * Debugger is active!
+2025-10-23 15:36:46,403 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:37:12,767 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\simple_desktop.py', reloading
+2025-10-23 15:37:13,775 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:37:15,836 - WARNING -  * Debugger is active!
+2025-10-23 15:37:15,838 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:37:59,762 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\simple_desktop.py', reloading
+2025-10-23 15:37:59,762 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\simple_desktop.py', reloading
+2025-10-23 15:37:59,762 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\simple_desktop.py', reloading
+2025-10-23 15:38:00,429 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:38:02,174 - WARNING -  * Debugger is active!
+2025-10-23 15:38:02,175 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:38:07,088 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\tkinter\\ttk.py', reloading
+2025-10-23 15:38:07,107 - INFO -  * Detected change in 'C:\\Users\\PRO\\AppData\\Local\\Programs\\Python\\Python314\\Lib\\tkinter\\scrolledtext.py', reloading
+2025-10-23 15:38:07,402 - INFO -  * Restarting with watchdog (windowsapi)
+2025-10-23 15:38:08,727 - WARNING -  * Debugger is active!
+2025-10-23 15:38:08,728 - INFO -  * Debugger PIN: 520-505-401

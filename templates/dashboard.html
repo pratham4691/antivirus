@@ -4,91 +4,620 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Futuristic Antivirus Dashboard</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
-        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f5f5f5; }
-        .container { max-width: 1200px; margin: 0 auto; }
-        .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; }
-        .section { background: white; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
-        .btn { background: #667eea; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; }
-        .btn:hover { background: #5a6fd8; }
-        input[type="text"] { padding: 10px; width: 300px; border: 1px solid #ddd; border-radius: 4px; }
-        .log-entry { margin: 5px 0; padding: 5px; background: #f9f9f9; border-left: 3px solid #667eea; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0c0c0c 0%, #1a1a2e 50%, #16213e 100%);
+            color: #e0e0e0;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 20px;
+            margin-bottom: 30px;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg, transparent, rgba(255,255,255,0.1), transparent);
+            animation: shimmer 3s infinite;
+        }
+
+        @keyframes shimmer {
+            0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+            100% { transform: translateX(100%) translateY(100%) rotate(45deg); }
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 0 0 20px rgba(255,255,255,0.5);
+            position: relative;
+            z-index: 1;
+        }
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Grid Layout */
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 25px;
+            margin-bottom: 30px;
+        }
+
+        /* Cards */
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 25px;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #667eea, #764ba2, #f093fb);
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(102, 126, 234, 0.2);
+            border-color: rgba(102, 126, 234, 0.3);
+        }
+
+        .card h2 {
+            color: #fff;
+            margin-bottom: 20px;
+            font-size: 1.4em;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .card h2 i {
+            color: #667eea;
+        }
+
+        /* Stats Cards */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .stat-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .stat-value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+
+        .stat-label {
+            color: #ccc;
+            font-size: 0.9em;
+        }
+
+        /* Progress Bars */
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+            overflow: hidden;
+            margin: 10px 0;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            border-radius: 4px;
+            transition: width 0.3s ease;
+        }
+
+        /* Buttons */
+        .btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn:active {
+            transform: translateY(0);
+        }
+
+        /* Inputs */
+        .input-group {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        input[type="text"] {
+            flex: 1;
+            padding: 12px 15px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            color: white;
+            font-size: 1em;
+        }
+
+        input[type="text"]::placeholder {
+            color: #ccc;
+        }
+
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.3);
+        }
+
+        /* Activity Timeline */
+        .activity-item {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            margin: 10px 0;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+            transition: all 0.3s ease;
+        }
+
+        .activity-item:hover {
+            background: rgba(255, 255, 255, 0.08);
+            transform: translateX(5px);
+        }
+
+        .activity-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            color: white;
+        }
+
+        .activity-content {
+            flex: 1;
+        }
+
+        .activity-time {
+            color: #ccc;
+            font-size: 0.8em;
+            margin-bottom: 5px;
+        }
+
+        .activity-action {
+            font-weight: 600;
+            color: white;
+        }
+
+        .activity-details {
+            color: #ccc;
+            font-size: 0.9em;
+        }
+
+        /* Threat Level Indicator */
+        .threat-level {
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 0.9em;
+        }
+
+        .threat-low { background: #4CAF50; color: white; }
+        .threat-medium { background: #FF9800; color: white; }
+        .threat-high { background: #F44336; color: white; }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card {
+            animation: fadeIn 0.6s ease-out;
+        }
+
+        .card:nth-child(1) { animation-delay: 0.1s; }
+        .card:nth-child(2) { animation-delay: 0.2s; }
+        .card:nth-child(3) { animation-delay: 0.3s; }
+        .card:nth-child(4) { animation-delay: 0.4s; }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .dashboard-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .header h1 {
+                font-size: 2em;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        /* Loading Animation */
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(255,255,255,0.3);
+            border-radius: 50%;
+            border-top-color: #667eea;
+            animation: spin 1s ease-in-out infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <h1>🛡️ Futuristic Antivirus System</h1>
-            <p>Advanced Threat Detection & Prevention</p>
+            <h1><i class="fas fa-shield-alt"></i> Futuristic Antivirus System</h1>
+            <p>Advanced Threat Detection & Prevention Platform</p>
         </div>
 
-        <div class="section">
-            <h2>Quick Scan</h2>
-            <input type="text" id="scanPath" placeholder="Enter path to scan (e.g., C:\Users\...)" />
-            <button class="btn" onclick="performScan()">Start Scan</button>
-            <div id="scanResults"></div>
-        </div>
+        <div class="dashboard-grid">
+            <!-- System Stats -->
+            <div class="card">
+                <h2><i class="fas fa-chart-line"></i> System Performance</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-value" id="cpuUsage">--</div>
+                        <div class="stat-label">CPU Usage</div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="cpuBar" style="width: 0%"></div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="memoryUsage">--</div>
+                        <div class="stat-label">Memory Usage</div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="memoryBar" style="width: 0%"></div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="diskUsage">--</div>
+                        <div class="stat-label">Disk Usage</div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="diskBar" style="width: 0%"></div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="uptime">--</div>
+                        <div class="stat-label">Uptime (hrs)</div>
+                    </div>
+                </div>
+            </div>
 
-        <div class="section">
-            <h2>Recent Logs</h2>
-            <button class="btn" onclick="loadLogs()">Refresh Logs</button>
-            <div id="logsContainer"></div>
-        </div>
+            <!-- Threat Statistics -->
+            <div class="card">
+                <h2><i class="fas fa-exclamation-triangle"></i> Threat Overview</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-value" id="totalQuarantined">--</div>
+                        <div class="stat-label">Quarantined Files</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="recentScans">--</div>
+                        <div class="stat-label">Recent Scans</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="recentThreats">--</div>
+                        <div class="stat-label">Recent Threats</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="threatLevel">--</div>
+                        <div class="stat-label">Threat Level</div>
+                    </div>
+                </div>
+                <div style="text-align: center; margin-top: 20px;">
+                    <span class="threat-level threat-low" id="threatIndicator">LOW</span>
+                </div>
+            </div>
 
-        <div class="section">
-            <h2>Quarantine</h2>
-            <button class="btn" onclick="loadQuarantine()">View Quarantined Files</button>
-            <div id="quarantineContainer"></div>
-        </div>
+            <!-- Quick Scan -->
+            <div class="card">
+                <h2><i class="fas fa-search"></i> Quick Scan</h2>
+                <div class="input-group">
+                    <input type="text" id="scanPath" placeholder="Enter path to scan (e.g., C:\Users\...)" />
+                    <button class="btn" onclick="performScan()" id="scanBtn">
+                        <i class="fas fa-play"></i> Start Scan
+                    </button>
+                </div>
+                <div id="scanResults"></div>
+            </div>
 
-        <div class="section">
-            <h2>System Status</h2>
-            <p>AI Model: <span id="aiStatus">Loaded</span></p>
-            <p>Cloud Intel: <span id="cloudStatus">Connected</span></p>
-            <p>Sandbox: <span id="sandboxStatus">Ready</span></p>
+            <!-- Activity Timeline -->
+            <div class="card">
+                <h2><i class="fas fa-history"></i> Activity Timeline</h2>
+                <div id="activityContainer">
+                    <div class="loading"></div> Loading activities...
+                </div>
+            </div>
+
+            <!-- Recent Logs -->
+            <div class="card">
+                <h2><i class="fas fa-list"></i> Recent Logs</h2>
+                <button class="btn" onclick="loadLogs()" style="margin-bottom: 15px;">
+                    <i class="fas fa-sync"></i> Refresh Logs
+                </button>
+                <div id="logsContainer"></div>
+            </div>
+
+            <!-- Quarantine -->
+            <div class="card">
+                <h2><i class="fas fa-lock"></i> Quarantine</h2>
+                <button class="btn" onclick="loadQuarantine()" style="margin-bottom: 15px;">
+                    <i class="fas fa-eye"></i> View Quarantined Files
+                </button>
+                <div id="quarantineContainer"></div>
+            </div>
         </div>
     </div>
 
     <script>
+        // Load all dashboard data on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            loadSystemStats();
+            loadThreatStats();
+            loadActivityTimeline();
+            loadLogs();
+            loadQuarantine();
+
+            // Auto-refresh system stats every 30 seconds
+            setInterval(loadSystemStats, 30000);
+        });
+
+        async function loadSystemStats() {
+            try {
+                const response = await fetch('/system_stats');
+                const stats = await response.json();
+
+                document.getElementById('cpuUsage').textContent = stats.cpu_usage + '%';
+                document.getElementById('cpuBar').style.width = stats.cpu_usage + '%';
+
+                document.getElementById('memoryUsage').textContent = stats.memory_usage + '%';
+                document.getElementById('memoryBar').style.width = stats.memory_usage + '%';
+
+                document.getElementById('diskUsage').textContent = stats.disk_usage + '%';
+                document.getElementById('diskBar').style.width = stats.disk_usage + '%';
+
+                document.getElementById('uptime').textContent = Math.floor(stats.uptime / 3600);
+            } catch (error) {
+                console.error('Failed to load system stats:', error);
+            }
+        }
+
+        async function loadThreatStats() {
+            try {
+                const response = await fetch('/threat_stats');
+                const stats = await response.json();
+
+                document.getElementById('totalQuarantined').textContent = stats.total_quarantined;
+                document.getElementById('recentScans').textContent = stats.recent_scans;
+                document.getElementById('recentThreats').textContent = stats.recent_threats;
+                document.getElementById('threatLevel').textContent = stats.threat_level;
+
+                const indicator = document.getElementById('threatIndicator');
+                indicator.className = 'threat-level threat-' + stats.threat_level.toLowerCase();
+                indicator.textContent = stats.threat_level.toUpperCase();
+            } catch (error) {
+                console.error('Failed to load threat stats:', error);
+            }
+        }
+
+        async function loadActivityTimeline() {
+            try {
+                const response = await fetch('/activity_timeline');
+                const data = await response.json();
+
+                const activitiesHtml = data.activities.map(activity => `
+                    <div class="activity-item">
+                        <div class="activity-icon">
+                            <i class="fas fa-${getActivityIcon(activity.action)}"></i>
+                        </div>
+                        <div class="activity-content">
+                            <div class="activity-time">${activity.time}</div>
+                            <div class="activity-action">${activity.action}</div>
+                            <div class="activity-details">${activity.details}</div>
+                        </div>
+                    </div>
+                `).join('');
+
+                document.getElementById('activityContainer').innerHTML = activitiesHtml;
+            } catch (error) {
+                console.error('Failed to load activity timeline:', error);
+                document.getElementById('activityContainer').innerHTML = 'Failed to load activities';
+            }
+        }
+
+        function getActivityIcon(action) {
+            if (action.includes('scan')) return 'search';
+            if (action.includes('quarantined')) return 'lock';
+            if (action.includes('monitoring')) return 'eye';
+            if (action.includes('updated')) return 'sync';
+            return 'info-circle';
+        }
+
         async function performScan() {
             const path = document.getElementById('scanPath').value;
+            const btn = document.getElementById('scanBtn');
+
             if (!path) {
                 alert('Please enter a path to scan');
                 return;
             }
 
-            const response = await fetch('/scan', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ path })
-            });
+            // Show loading state
+            btn.innerHTML = '<div class="loading"></div> Scanning...';
+            btn.disabled = true;
 
-            const result = await response.json();
-            document.getElementById('scanResults').innerHTML = `
-                <h3>Scan Results</h3>
-                <p>Scanned: ${result.scanned_path}</p>
-                <p>Infected files: ${result.total_infected}</p>
-                <ul>${result.infected_files.map(f => `<li>${f}</li>`).join('')}</ul>
-            `;
+            try {
+                const response = await fetch('/scan', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ path })
+                });
+
+                const result = await response.json();
+
+                let resultHtml = `
+                    <div style="margin-top: 15px; padding: 15px; background: rgba(255,255,255,0.05); border-radius: 8px;">
+                        <h4 style="color: #667eea; margin-bottom: 10px;"><i class="fas fa-check-circle"></i> Scan Results</h4>
+                        <p><strong>Scanned:</strong> ${result.scanned_path}</p>
+                        <p><strong>Infected files:</strong> ${result.total_infected}</p>
+                `;
+
+                if (result.infected_files.length > 0) {
+                    resultHtml += '<ul style="margin-top: 10px;">';
+                    result.infected_files.forEach(file => {
+                        resultHtml += `<li style="color: #ff6b6b;">${file}</li>`;
+                    });
+                    resultHtml += '</ul>';
+                }
+
+                resultHtml += '</div>';
+                document.getElementById('scanResults').innerHTML = resultHtml;
+
+                // Refresh threat stats after scan
+                setTimeout(loadThreatStats, 1000);
+
+            } catch (error) {
+                document.getElementById('scanResults').innerHTML = `
+                    <div style="margin-top: 15px; padding: 15px; background: rgba(255,0,0,0.1); border-radius: 8px; color: #ff6b6b;">
+                        <i class="fas fa-exclamation-triangle"></i> Scan failed: ${error.message}
+                    </div>
+                `;
+            } finally {
+                btn.innerHTML = '<i class="fas fa-play"></i> Start Scan';
+                btn.disabled = false;
+            }
         }
 
         async function loadLogs() {
-            const response = await fetch('/logs');
-            const result = await response.json();
-            const logsHtml = result.logs.map(log => `<div class="log-entry">${log}</div>`).join('');
-            document.getElementById('logsContainer').innerHTML = logsHtml;
+            try {
+                const response = await fetch('/logs');
+                const result = await response.json();
+
+                if (result.logs.length === 0) {
+                    document.getElementById('logsContainer').innerHTML = '<p style="color: #ccc; font-style: italic;">No logs available</p>';
+                    return;
+                }
+
+                const logsHtml = result.logs.map(log => `
+                    <div style="padding: 8px; margin: 5px 0; background: rgba(255,255,255,0.05); border-radius: 5px; font-family: monospace; font-size: 0.9em; color: #e0e0e0;">
+                        ${log.trim()}
+                    </div>
+                `).join('');
+
+                document.getElementById('logsContainer').innerHTML = logsHtml;
+            } catch (error) {
+                document.getElementById('logsContainer').innerHTML = '<p style="color: #ff6b6b;">Failed to load logs</p>';
+            }
         }
 
         async function loadQuarantine() {
-            const response = await fetch('/quarantine');
-            const result = await response.json();
-            const quarantineHtml = result.quarantined_files.map(f => `<div class="log-entry">${f}</div>`).join('');
-            document.getElementById('quarantineContainer').innerHTML = quarantineHtml;
+            try {
+                const response = await fetch('/quarantine');
+                const result = await response.json();
+
+                if (result.quarantined_files.length === 0) {
+                    document.getElementById('quarantineContainer').innerHTML = '<p style="color: #ccc; font-style: italic;">No quarantined files</p>';
+                    return;
+                }
+
+                const quarantineHtml = result.quarantined_files.map(file => `
+                    <div style="display: flex; align-items: center; padding: 10px; margin: 5px 0; background: rgba(255,255,255,0.05); border-radius: 5px;">
+                        <i class="fas fa-file" style="margin-right: 10px; color: #ff6b6b;"></i>
+                        <span style="flex: 1;">${file}</span>
+                        <button class="btn" style="padding: 5px 10px; font-size: 0.8em;" onclick="restoreFile('${file}')">
+                            <i class="fas fa-undo"></i> Restore
+                        </button>
+                    </div>
+                `).join('');
+
+                document.getElementById('quarantineContainer').innerHTML = quarantineHtml;
+            } catch (error) {
+                document.getElementById('quarantineContainer').innerHTML = '<p style="color: #ff6b6b;">Failed to load quarantined files</p>';
+            }
         }
 
-        // Load initial data
-        loadLogs();
-        loadQuarantine();
+        function restoreFile(filename) {
+            alert(`Restore functionality for ${filename} would be implemented here`);
+        }
     </script>
 </body>
 </html>
