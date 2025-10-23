@@ -986,3 +986,10 @@
 2025-10-23 15:38:07,402 - INFO -  * Restarting with watchdog (windowsapi)
 2025-10-23 15:38:08,727 - WARNING -  * Debugger is active!
 2025-10-23 15:38:08,728 - INFO -  * Debugger PIN: 520-505-401
+2025-10-23 15:47:10,539 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\build\\FuturisticAntivirus\\localpycs\\pyimod01_archive.pyc', reloading
+2025-10-23 15:47:10,539 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\build\\FuturisticAntivirus\\localpycs\\pyimod02_importers.pyc', reloading
+2025-10-23 15:47:10,540 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\build\\FuturisticAntivirus\\localpycs\\pyimod03_ctypes.pyc', reloading
+2025-10-23 15:47:10,540 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\build\\FuturisticAntivirus\\localpycs\\pyimod04_pywin32.pyc', reloading
+2025-10-23 15:47:10,540 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\build\\FuturisticAntivirus\\localpycs\\struct.pyc', reloading
+2025-10-23 15:47:10,549 - INFO -  * Detected change in 'C:\\Users\\PRO\\Desktop\\skanda_a\\build\\FuturisticAntivirus\\base_library.zip', reloading
+2025-10-23 15:47:11,694 - INFO -  * Restarting with watchdog (windowsapi)
