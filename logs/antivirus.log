@@ -1762,3 +1762,25 @@
 2025-10-23 16:28:11,536 - INFO - 127.0.0.1 - - [23/Oct/2025 16:28:11] "GET /quarantine HTTP/1.1" 200 -
 2025-10-23 16:28:11,567 - INFO - 127.0.0.1 - - [23/Oct/2025 16:28:11] "GET /logs HTTP/1.1" 200 -
 2025-10-23 16:28:12,252 - INFO - 127.0.0.1 - - [23/Oct/2025 16:28:12] "GET /system_stats HTTP/1.1" 200 -
+2025-10-24 09:37:17,995 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-10-24 09:37:17,996 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-24 09:37:18,000 - INFO -  * Restarting with watchdog (fsevents)
+2025-10-24 09:37:19,334 - WARNING -  * Debugger is active!
+2025-10-24 09:37:19,349 - INFO -  * Debugger PIN: 209-202-248
+2025-10-24 09:37:20,770 - INFO - 127.0.0.1 - - [24/Oct/2025 09:37:20] "GET / HTTP/1.1" 200 -
+2025-10-24 09:37:40,494 - INFO - 127.0.0.1 - - [24/Oct/2025 09:37:40] "GET / HTTP/1.1" 200 -
+2025-10-24 09:37:41,542 - INFO - 127.0.0.1 - - [24/Oct/2025 09:37:41] "GET /activity_timeline HTTP/1.1" 200 -
+2025-10-24 09:37:41,544 - INFO - 127.0.0.1 - - [24/Oct/2025 09:37:41] "GET /quarantine HTTP/1.1" 200 -
+2025-10-24 09:37:41,548 - INFO - 127.0.0.1 - - [24/Oct/2025 09:37:41] "GET /threat_stats HTTP/1.1" 200 -
+2025-10-24 09:37:41,548 - INFO - 127.0.0.1 - - [24/Oct/2025 09:37:41] "GET /logs HTTP/1.1" 200 -
+2025-10-24 09:37:41,814 - INFO - 127.0.0.1 - - [24/Oct/2025 09:37:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-24 09:37:42,547 - INFO - 127.0.0.1 - - [24/Oct/2025 09:37:42] "GET /system_stats HTTP/1.1" 200 -
+2025-10-24 09:38:13,126 - INFO - 127.0.0.1 - - [24/Oct/2025 09:38:13] "GET /system_stats HTTP/1.1" 200 -
+2025-10-24 09:38:42,979 - INFO - 127.0.0.1 - - [24/Oct/2025 09:38:42] "GET /system_stats HTTP/1.1" 200 -
+2025-10-24 09:39:13,113 - INFO - 127.0.0.1 - - [24/Oct/2025 09:39:13] "GET /system_stats HTTP/1.1" 200 -
+2025-10-24 09:39:42,987 - INFO - 127.0.0.1 - - [24/Oct/2025 09:39:42] "GET /system_stats HTTP/1.1" 200 -
+2025-10-24 09:40:12,551 - INFO - 127.0.0.1 - - [24/Oct/2025 09:40:12] "GET /system_stats HTTP/1.1" 200 -
+2025-10-24 09:40:42,975 - INFO - 127.0.0.1 - - [24/Oct/2025 09:40:42] "GET /system_stats HTTP/1.1" 200 -
+2025-10-24 09:41:12,978 - INFO - 127.0.0.1 - - [24/Oct/2025 09:41:12] "GET /system_stats HTTP/1.1" 200 -
+2025-10-24 09:41:47,982 - INFO - 127.0.0.1 - - [24/Oct/2025 09:41:47] "GET /system_stats HTTP/1.1" 200 -
